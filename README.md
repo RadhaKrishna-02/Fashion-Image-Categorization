@@ -108,7 +108,7 @@ Validation Split : 20%
 Metrics : Accuracy
 
 ## Project Workflow
-''' text
+
 Load Dataset
       ↓
 Normalize Images
@@ -127,37 +127,38 @@ Generate Predictions
       ↓
 Visualize Results
 Evaluation Metrics
-'''
+
 
 ## The model performance is evaluated using:
 
-Test Accuracy
-Training Accuracy
-Validation Accuracy
-Confusion Matrix
-Precision
-Recall
-F1-Score
-Visualizations
+- Test Accuracy
+- Training Accuracy
+- Validation Accuracy
+- Confusion Matrix
+- Precision
+- Recall
+- F1-Score
+- Visualizations
 
 ## The project generates:
 
-Accuracy Curve
-Training Accuracy
-Validation Accuracy
-Loss Curve
-Training Loss
-Validation Loss
-Confusion Matrix
+- Accuracy Curve
+- Training Accuracy
+- Validation Accuracy
+- Loss Curve
+- Training Loss
+- Validation Loss
+- Confusion Matrix
 
 Visual representation of classification performance across all categories.
 
 ## Displays:
 
-Actual Label
-Predicted Label
-Installation
-Clone the Repository
+- Actual Label
+- Predicted Label
+- Installation
+
+## Clone the Repository
 git clone https://github.com/RadhaKrishna-02/Fashion-Image-Categorization.git
 
 cd Fashion-Image-Categorization
