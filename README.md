@@ -67,35 +67,25 @@ The project uses the Fashion-MNIST dataset provided by TensorFlow.
 
 ## CNN Architecture
 
-The model consists of:
-
 ```text
-Input Layer (28 × 28 × 1)
-
-↓
-Conv2D (32 Filters, 3×3, ReLU)
-
-↓
-MaxPooling2D (2×2)
-
-↓
-Conv2D (64 Filters, 3×3, ReLU)
-
-↓
-MaxPooling2D (2×2)
-
-↓
+Input (28×28×1)
+      ↓
+Conv2D (32, ReLU)
+      ↓
+MaxPooling2D
+      ↓
+Conv2D (64, ReLU)
+      ↓
+MaxPooling2D
+      ↓
 Flatten
-
-↓
-Dense (128 Neurons, ReLU)
-
-↓
+      ↓
+Dense (128, ReLU)
+      ↓
 Dropout (0.3)
-
-↓
-Dense (10 Neurons, Softmax)
-
+      ↓
+Dense (10, Softmax)
+```
 ## Model Highlights
 Two Convolutional Layers for feature extraction
 Max Pooling Layers for dimensionality reduction
@@ -116,7 +106,9 @@ Loss Function : Sparse Categorical Crossentropy
 Epochs : 10
 Validation Split : 20%
 Metrics : Accuracy
-Project Workflow
+
+## Project Workflow
+''' text
 Load Dataset
       ↓
 Normalize Images
@@ -135,6 +127,7 @@ Generate Predictions
       ↓
 Visualize Results
 Evaluation Metrics
+'''
 
 ## The model performance is evaluated using:
 
@@ -190,8 +183,8 @@ Learning Outcomes
 
 ## This project demonstrates:
 
-Deep Learning Fundamentals
-Convolutional Neural Networks (CNNs)
-Image Classification Techniques
-Model Evaluation and Visualization
-TensorFlow/Keras Implementation
+- Deep Learning Fundamentals
+- Convolutional Neural Networks (CNNs)
+- Image Classification Techniques
+- Model Evaluation and Visualization
+- TensorFlow/Keras Implementation
