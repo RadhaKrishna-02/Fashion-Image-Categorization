@@ -109,6 +109,7 @@ Metrics : Accuracy
 
 ## Project Workflow
 
+```text
 Load Dataset
       ↓
 Normalize Images
@@ -127,7 +128,7 @@ Generate Predictions
       ↓
 Visualize Results
 Evaluation Metrics
-
+```
 
 ## The model performance is evaluated using:
 
