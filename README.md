@@ -96,14 +96,14 @@ Dropout (0.3)
 ↓
 Dense (10 Neurons, Softmax)
 
-Model Highlights
+## Model Highlights
 Two Convolutional Layers for feature extraction
 Max Pooling Layers for dimensionality reduction
 Dropout Layer to reduce overfitting
 Softmax Output Layer for multi-class classification
 Data Preprocessing
 
-The following preprocessing steps are performed:
+## The following preprocessing steps are performed:
 
 Load Fashion-MNIST dataset
 Normalize pixel values from 0–255 to 0–1
@@ -136,7 +136,7 @@ Generate Predictions
 Visualize Results
 Evaluation Metrics
 
-The model performance is evaluated using:
+## The model performance is evaluated using:
 
 Test Accuracy
 Training Accuracy
@@ -147,7 +147,7 @@ Recall
 F1-Score
 Visualizations
 
-The project generates:
+## The project generates:
 
 Accuracy Curve
 Training Accuracy
@@ -159,9 +159,7 @@ Confusion Matrix
 
 Visual representation of classification performance across all categories.
 
-Sample Prediction
-
-Displays:
+## Displays:
 
 Actual Label
 Predicted Label
@@ -172,7 +170,8 @@ git clone https://github.com/RadhaKrishna-02/Fashion-Image-Categorization.git
 cd Fashion-Image-Categorization
 Install Dependencies
 pip install tensorflow numpy matplotlib seaborn scikit-learn
-Running the Project
+
+## Running the Project
 Using Google Colab
 Open Main.ipynb
 Enable GPU:
@@ -189,7 +188,7 @@ and execute all cells sequentially.
 
 Learning Outcomes
 
-This project demonstrates:
+## This project demonstrates:
 
 Deep Learning Fundamentals
 Convolutional Neural Networks (CNNs)
